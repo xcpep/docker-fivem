@@ -1,5 +1,5 @@
 fivem:
-  image: joebiellik/fivem
+  image: greenleafrp/fivem
 
   volumes:
     # You must provide a server config file
