@@ -1,7 +1,7 @@
 FROM alpine:latest
 
 RUN apk add --no-cache ca-certificates curl
-RUN curl https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/1012-b0a7cda1007dc53d2ba0f638c035c0a5d1402796/fx.tar.xz | tar xJ -C /srv
+RUN curl https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/1056-07194cf7b489d61b1400c516aab75b73eb69068f/fx.tar.xz | tar xJ -C /srv
 
 WORKDIR /srv
 VOLUME ["/srv/cache", "/srv/resources"]
