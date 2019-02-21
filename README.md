@@ -15,7 +15,7 @@ See [example directory](https://github.com/greenleafrp/docker-fivem/tree/master/
 
 ```yml
 fivem:
-  image: joebiellik/fivem
+  image: greenleafrp/fivem
 
   volumes:
     # You must provide a server config file
