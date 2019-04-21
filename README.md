@@ -22,7 +22,6 @@ fivem:
     - ./server.cfg:/srv/server.cfg
 
     - ./resources:/srv/resources
-    - ./cache:/srv/cache
 
   ports:
     - "30120:30120/tcp"
